@@ -14,15 +14,15 @@ Use HotKeys to Make IMVU display over other apps without interfering with workfl
       
 # How To Use
 
--When you start the program you wont see anything. this is normal.
+- When you start the program you wont see anything. this is normal.
 
--Set IMVU to the width you would like by resizing the window first.
+- Set IMVU to the width you would like by resizing the window first.
   >The height will be modified automatically when you enable the modifier.
 
--Press windows key and I to activate or deactivate the Modifier.
+- Press windows key and i to activate or deactivate the Modifier.
 
 - You can Find the icon for this application in your tray icons on your taskbar. Right click for options such as reloading or exiting the application. 
-  > You can even edit the script if you know what youre doing. if you dont then good luck. If you do then let me know if you make it better!
+  > You can even edit the script if you know what youre doing. If you dont then good luck. If you do then let me know if you make it better!
 
 # while modifier is active:
 
@@ -38,9 +38,9 @@ Use HotKeys to Make IMVU display over other apps without interfering with workfl
 
 - HELP! it looks weird and I can see notifications and things that are ugly, absurd or obnoxious!
   > Solution (maybe, probably, fingers crossed):
-    >just press the windows key and I combo to disable and reenable the modifier.
+    > Just press the windows key and i combo to disable and reenable the modifier.
 
-- HELP! (insert issue here)
-  > just contact me on imvu or discord 
+- HELP! (insert issue here)!
+  > Just contact me on imvu or discord:
     > IMVU username: G6NK
     > Discord username: g6nk
