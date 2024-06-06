@@ -1,5 +1,6 @@
 # Imvu Overlay (No GUI)
-Use HotKeys to Make IMVU display over other apps without interfering with workflow.
+-Use HotKeys to Make IMVU display over other apps without interfering with workflow.
+
 
 # Requirements
 
@@ -11,10 +12,17 @@ Use HotKeys to Make IMVU display over other apps without interfering with workfl
 - AutoHotkey v1.1
   > You can find the download for this here: 
      > https://www.autohotkey.com/
-      
-# How To Use
 
-- When you start the program you wont see anything. this is normal.
+- IMVU Overlay Script
+  > Get the latest version here:
+    > https://github.com/D6NK/Imvu-Overlay-No-GUI-/releases/tag/AHK
+      > Download the Source code (zip)
+      > Extract the files wherever you want. even the trash. (Might not work there though).
+# How To Use
+- Check requirements. If all are met continue reading:
+   >double click on Imvu Overlay Script.ahk to start the program.
+
+- When you start the program you wont see anything. This is normal.
 
 - Set IMVU to the width you would like by resizing the window first.
   >The height will be modified automatically when you enable the modifier.
