@@ -29,6 +29,8 @@
 
 - Press windows key and i to activate or deactivate the Modifier.
 
+- Press Alt and hold Left Mouse Button to drag the window under your mouse anywhere,
+
 - You can Find the icon for this application in your tray icons on your taskbar. Right click for options such as reloading or exiting the application. 
   > You can even edit the script if you know what youre doing. If you dont then good luck. If you do then let me know if you make it better!
 
