@@ -24,7 +24,7 @@ Use HotKeys to Make IMVU display over other apps without interfering with workfl
 - You can Find the icon for this application in your tray icons on your taskbar. Right click for options such as reloading or exiting the application. 
   > You can even edit the script if you know what youre doing. If you dont then good luck. If you do then let me know if you make it better!
 
-# while modifier is active:
+> # While Modifier Is Active:
 
 - When Imvu is not the currently active It will be unclickable
   > You will need to alt tab to IMVU in order to type in chat.
