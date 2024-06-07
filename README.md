@@ -41,7 +41,7 @@
 
 - You have the option to make the background blurred by pressing Left Control and Alt and B at the same time.
   >  Disable the background blur by pressing the key combination again.
-  > [code]<video class="vYDA2upSTOvXtYFMXQfS" playsinline="" loop=""><source src="https://i.gyazo.com/66b1f8474a6f4c986a0224132ffe72f0.mp4" type="video/mp4"></video>[/code]
+  [code]<video class="vYDA2upSTOvXtYFMXQfS" playsinline="" loop=""><source src="https://i.gyazo.com/66b1f8474a6f4c986a0224132ffe72f0.mp4" type="video/mp4"></video>[/code]
 
 # F.A.Q.
 
