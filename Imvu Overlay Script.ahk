@@ -1,4 +1,4 @@
-﻿
+
  
 #NoEnv
 ;warn
@@ -53,17 +53,17 @@ else
 {
 
 active := 1
-winset, transcolor, off, - IMVU
-winset, alwaysontop, off,  - IMVU
-WinSet, Exstyle, -0x20, - IMVU
-WinSet, Style, -0x040000,- IMVU ; WS_THICKFRAME
-WinSet, Style, -0x400000,- IMVU ; WS_DLGFRAME
+winset, transcolor, off, ahk_class ImvuNativeWindow
+winset, alwaysontop, off,  ahk_class ImvuNativeWindow
+WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
+WinSet, Style, -0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, -0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME	
 WinMove,- IMVU,,,,,355
 WinGetPos,,,W,H,  - IMVU
-winset, transcolor, 111111 200, - IMVU
+winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
 	H -= (77 + 64)
 	W -= 6
-WinSet, Region, 0-85 h%H% w%W%  , - IMVU	
+WinSet, Region, 0-85 h%H% w%W%  ,ahk_class ImvuNativeWindow	
 }
 }
 else
@@ -72,16 +72,16 @@ if active = 1
 {
 active := 0
 
-winset, alwaysontop, on, - IMVU
-WinSet, Exstyle, +0x20, - IMVU
-WinSet, Style, -0x040000,- IMVU ; WS_THICKFRAME
-WinSet, Style, -0x400000,- IMVU ; WS_DLGFRAME
+winset, alwaysontop, on, ahk_class ImvuNativeWindow
+WinSet, Exstyle, +0x20, ahk_class ImvuNativeWindow
+WinSet, Style, -0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, -0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
 WinMove,- IMVU,,,,,355
 WinGetPos,,,W,H,  - IMVU
-winset, transcolor, 111111 200, - IMVU
+winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
 	H -= (77 + 116)
 	W -= 46
-WinSet, Region, 4-85 h%H% w%W%  , - IMVU
+WinSet, Region, 4-85 h%H% w%W%  , ahk_class ImvuNativeWindow
 
 }
 }
@@ -89,11 +89,11 @@ WinSet, Region, 4-85 h%H% w%W%  , - IMVU
 else
 {
 
-winset, transcolor, off, - IMVU
-winset, alwaysontop, off,  - IMVU
-WinSet, Exstyle, -0x20, - IMVU
-WinSet, Style, +0x040000,- IMVU ; WS_THICKFRAME
-WinSet, Style, +0x400000,- IMVU ; WS_DLGFRAME
+winset, transcolor, off, ahk_class ImvuNativeWindow
+winset, alwaysontop, off,  ahk_class ImvuNativeWindow
+WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
+WinSet, Style, +0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, +0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
 WinSet, Region,, - IMVU
 }
 return
@@ -127,13 +127,12 @@ if enB = 1
 enB := 0
 dblur( hwnd )
 }
-
-winset, transcolor, off, - IMVU
-winset, alwaysontop, off,  - IMVU
-WinSet, Exstyle, -0x20, - IMVU
-WinSet, Style, +0x040000,- IMVU ; WS_THICKFRAME
-WinSet, Style, +0x400000,- IMVU ; WS_DLGFRAME
-WinSet, Region,, - IMVU
+winset, transcolor, off, ahk_class ImvuNativeWindow
+winset, alwaysontop, off,  ahk_class ImvuNativeWindow
+WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
+WinSet, Style, +0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, +0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
+WinSet, Region,, ahk_class ImvuNativeWindow
 
    DllCall("gdi32.dll\DeleteObject", UInt,hbm_buffer)
    DllCall("gdi32.dll\DeleteDC", UInt,hdc_frame )
@@ -192,7 +191,7 @@ EBlur( hWnd ) {
  
 
 ^!B::
-hwnd := winexist( "- IMVU" )
+hwnd := winexist( "ahk_class ImvuNativeWindow" )
 if enB = 0
 {
 enb := 1
