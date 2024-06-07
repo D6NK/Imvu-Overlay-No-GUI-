@@ -56,14 +56,12 @@ active := 1
 winset, transcolor, off, ahk_class ImvuNativeWindow
 winset, alwaysontop, off,  ahk_class ImvuNativeWindow
 WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
-WinSet, Style, -0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
-WinSet, Style, -0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME	
+winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
 WinMove,- IMVU,,,,,355
 WinGetPos,,,W,H,  - IMVU
-winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
-	H -= (77 + 64)
-	W -= 6
-WinSet, Region, 0-85 h%H% w%W%  ,ahk_class ImvuNativeWindow	
+	H -= (135)
+	W -= 5
+WinSet, Region, 0-108 h%H% w%W%  ,ahk_class ImvuNativeWindow	
 }
 }
 else
@@ -74,26 +72,21 @@ active := 0
 
 winset, alwaysontop, on, ahk_class ImvuNativeWindow
 WinSet, Exstyle, +0x20, ahk_class ImvuNativeWindow
-WinSet, Style, -0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
-WinSet, Style, -0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
+winset, transcolor, 111111 180, ahk_class ImvuNativeWindow
 WinMove,- IMVU,,,,,355
 WinGetPos,,,W,H,  - IMVU
-winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
-	H -= (77 + 116)
+	H -= (182)
 	W -= 46
-WinSet, Region, 4-85 h%H% w%W%  , ahk_class ImvuNativeWindow
+WinSet, Region, 4-108 h%H% w%W%  , ahk_class ImvuNativeWindow
 
 }
 }
 }
 else
 {
-
 winset, transcolor, off, ahk_class ImvuNativeWindow
 winset, alwaysontop, off,  ahk_class ImvuNativeWindow
 WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
-WinSet, Style, +0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
-WinSet, Style, +0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
 WinSet, Region,, - IMVU
 }
 return
@@ -103,10 +96,17 @@ winactivate, - IMVU
 if overlay = 0
 {
 overlay = 1
+
+WinMove,- IMVU,,,,,355
+WinGetPos,,,W,H,  - IMVU
+WinSet, Style, -0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, -0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
 }
 else
 {
 overlay = 0
+WinSet, Style, +0x040000,ahk_class ImvuNativeWindow ; WS_THICKFRAME
+WinSet, Style, +0x400000,ahk_class ImvuNativeWindow ; WS_DLGFRAME
 }
 return
 
