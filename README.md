@@ -44,7 +44,7 @@ https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a87ea334-a7d6-4f91-
 
 > # While Modifier Is Active:
 
-- When Imvu is not the currently active It will be unclickable
+- When Imvu is not the currently active window it will be unclickable
   > You will need to alt tab to IMVU in order to type in chat.
 
 - You have the option to make the background blurred by pressing Left Control and Alt and B at the same time.
