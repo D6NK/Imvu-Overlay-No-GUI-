@@ -15,7 +15,7 @@
 
 - IMVU Overlay Script
   > Get the latest version here:
-    > https://github.com/D6NK/Imvu-Overlay-No-GUI-/releases/tag/AHK
+    > https://github.com/D6NK/Imvu-Overlay-No-GUI-/releases/tag/v1.0.2
       > Download the Source code (zip)
       > Extract the files wherever you want. even the trash. (Might not work there though).
 # How To Use
