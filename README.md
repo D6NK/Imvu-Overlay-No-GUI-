@@ -36,7 +36,7 @@ https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a391c919-5942-4e4d-
 - Press Alt and hold Left Mouse Button to drag the window under your mouse anywhere,
 
 
-https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/b2f341a9-4d9d-45b6-af5c-9f397f303237
+https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a87ea334-a7d6-4f91-b856-72e0295d7fbb
 
 
 - You can Find the icon for this application in your tray icons on your taskbar. Right click for options such as reloading or exiting the application. 
