@@ -59,7 +59,7 @@ WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
 winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
 winset, transparent, 1,- IMVU
 WinMove,- IMVU,,,,800,600
-sleep 100
+sleep 500
 WinMove,- IMVU,,,,,355
 winset, transcolor, 111111 180, ahk_class ImvuNativeWindow
 WinGetPos,,,W,H,  - IMVU
