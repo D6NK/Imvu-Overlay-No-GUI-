@@ -29,15 +29,7 @@
 
 - Press windows key and i to activate or deactivate the Modifier.
 
-
-https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a391c919-5942-4e4d-9baf-01a073051509
-
-
 - Press Alt and hold Left Mouse Button to drag the window under your mouse anywhere,
-
-
-https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a87ea334-a7d6-4f91-b856-72e0295d7fbb
-
 
 - You can Find the icon for this application in your tray icons on your taskbar. Right click for options such as reloading or exiting the application. 
   > You can even edit the script if you know what youre doing. If you dont then good luck. If you do then let me know if you make it better!
@@ -49,10 +41,6 @@ https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/a87ea334-a7d6-4f91-
 
 - You have the option to make the background blurred by pressing Left Control and Alt and B at the same time.
   >  Disable the background blur by pressing the key combination again.
-
-
-https://github.com/D6NK/Imvu-Overlay-No-GUI-/assets/62926174/477ee2bb-888a-47f4-bd43-28e29cc0f889
-
 
 # F.A.Q.
 
