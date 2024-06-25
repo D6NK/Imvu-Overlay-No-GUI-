@@ -57,6 +57,8 @@ winset, transcolor, off, ahk_class ImvuNativeWindow
 winset, alwaysontop, off,  ahk_class ImvuNativeWindow
 WinSet, Exstyle, -0x20, ahk_class ImvuNativeWindow
 winset, transcolor, 111111 200, ahk_class ImvuNativeWindow
+WinMove,- IMVU,,,,800,600
+sleep 500
 WinMove,- IMVU,,,,,355
 WinGetPos,,,W,H,  - IMVU
 	H -= (135)
@@ -310,4 +312,3 @@ Loop
     WinMove,ahk_id %KDE_id%,,%KDE_WinX2%,%KDE_WinY2% ; Move the window to the new position.
 }
 return
-
